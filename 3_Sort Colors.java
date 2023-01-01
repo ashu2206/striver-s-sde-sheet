@@ -14,7 +14,7 @@ class Solution {
                 nums[low]=nums[mid];
                 nums[mid]=temp;
                 mid++;
-                low++;
+                low++;                        // swap mid and low
             }
             else if(nums[mid]==1)
             {
